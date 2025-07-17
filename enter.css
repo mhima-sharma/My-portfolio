@@ -1,188 +1,192 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar-link{
+    text-decoration: none;
+    color: aliceblue;
+   margin-left: 15%;
+   position: relative;
+   top: 10px;
+}
+label{
+   margin-left: 15%;
+   position: relative;
+   top: 10px; 
+   color: aliceblue; 
+}
+select{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    top: 10px;  
+}
+navbar{
+    background-color: rgb(40, 41, 43);
+    position: fixed;
+    width: 100%;
+    height: 40px;
+}
+a:hover{
+    color: red;
 }
 
-body {
-  font-family: Arial, sans-serif;
+.white{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(99, 76, 60);
 }
-
-navbar {
-  background-color: rgb(40, 41, 43);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  z-index: 1000;
+.white1{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(99, 76, 60);
 }
-
-.logo {
-  color: aliceblue;
-  border: 1px solid aliceblue;
-  padding: 5px 10px;
-  font-weight: bold;
-  margin-right: auto;
-  font-size: 20px;
+.about{
+    background-color: rgb(168, 105, 60);
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: #222;
+   padding: 20px;
+   color: aliceblue;
 }
-
-.logo:hover {
-  color: rgb(219, 123, 6);
+img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
 }
-
-.navbar-link {
-  text-decoration: none;
-  color: aliceblue;
-  margin-left: 30px;
-  font-size: 16px;
-  position: relative;
-  top: 2px;
+.about-text{
+    width: 40%;
+    text-align: center;
 }
+.skills{
+width: 30%;
 
-.navbar-link:hover {
-  color: red;
+
 }
-
-/* Existing styles below kept as is with spacing optimized */
-.white {
-  width: 100%;
-  height: 50px;
-  background-color: rgb(99, 76, 60);
+.skill-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    /* position: relative; */
+    
 }
-
-.white1 {
-  width: 100%;
-  height: 10px;
-  background-color: rgb(99, 76, 60);
+.progress{
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
 }
-
-.about {
-  background-color: #222;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  color: aliceblue;
+.progress1{
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
 }
-
-img {
-  height: 250px;
-  width: 200px;
-  border-radius: 50%;
+.progress2{
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
 }
-
-.about-text {
-  width: 40%;
-  text-align: center;
+.progress3{
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
 }
-
-.skills {
-  width: 30%;
+.progress4{
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
 }
-
-.skill-bar {
-  width: 100%;
-  height: 10px;
-  background-color: #444;
-  border-radius: 5px;
+.progress5{
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
 }
-
-.progress, .progress1, .progress2, .progress3, .progress4, .progress5 {
-  height: 10px;
-  background-color: #007bff;
-  border-radius: 5px;
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(233, 230, 230);
+    background-image: url(WhatsApp\ Image\ 2025-02-28\ at\ 8.47.13\ AM.jpeg);
 }
-
-.box1 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid rgb(233, 230, 230);
-  background-image: url('WhatsApp Image 2025-02-28 at 8.47.13 AM.jpeg');
-  background-size: cover;
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 10px;
+   
 }
-
-.projects {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+.main-container{
+    background-color: #222;
+    color: antiquewhite;
+    text-align: center;
 }
-
-.main-container {
-  background-color: #222;
-  color: antiquewhite;
-  text-align: center;
+button{
+    height: 40px;
+     width: 150px; 
+     font-size: 20px;
+    background-color: rgb(68, 33, 8);
+    border: none;
+    border-radius: 10px;
+    margin-top:90px ; 
 }
-
-button {
-  height: 40px;
-  width: 150px;
-  font-size: 20px;
-  background-color: rgb(68, 33, 8);
-  border: none;
-  border-radius: 10px;
-  margin-top: 90px;
+.project-link{
+   text-decoration: none;
+   color: rgb(190, 148, 118);
 }
-
-.project-link {
-  text-decoration: none;
-  color: rgb(190, 148, 118);
+html{
+    scroll-behavior: smooth;
 }
-
-html {
-  scroll-behavior: smooth;
+footer{
+    background-color: #222;
+    color:antiquewhite ;
+    text-align: center;
 }
-
-footer {
-  background-color: #222;
-  color: antiquewhite;
-  text-align: center;
-}
-
 form {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  position: relative;
-  top: 10px;
-  bottom: 10px;
-}
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+   position: relative;
+   top: 10px;
+   bottom: 10px;
 
+}
 input, textarea, .sendbtn {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
 }
-
-.social {
-  color: aliceblue;
-  text-decoration: none;
-  font-size: 20px;
-  padding: 10px;
+.social{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
 }
-
-.slideShow {
-  width: 100%;
-  height: 300px;
-  background-size: cover;
-  animation: changeImage 6s infinite;
+logo{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    height: 40px;
+    width: 40px;
 }
-
-@keyframes changeImage {
-  0% {
-    background-image: url('WhatsApp Image 2025-03-02 at 11.03.00 AM.jpeg');
-  }
-  50% {
-    background-image: url('WhatsApp Image 2025-03-02 at 11.03.01 AM.jpeg');
-  }
-  100% {
-    background-image: url('WhatsApp Image 2025-03-02 at 11.03.01 AM (1).jpeg');
-  }
+logo:hover{
+    color: rgb(219, 123, 6);
+}
+.slideShow{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    animation: changeImage 6s infinite;
+}
+@keyframes changeImage{
+    0% {background-image: url('WhatsApp\ Image\ 2025-03-02\ at\ 11.03.00\ AM.jpeg');}
+    50% {background-image: url('WhatsApp\ Image\ 2025-03-02\ at\ 11.03.01\ AM.jpeg');}
+    100% {background-image: url('WhatsApp\ Image\ 2025-03-02\ at\ 11.03.01\ AM\ \(1\).jpeg');}
 }
